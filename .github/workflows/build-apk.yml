@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -o PriceShareApp_fixed.zip
+        run: unzip -o PriceShareApp.zip
 
       - name: Set up Java
         uses: actions/setup-java@v4
